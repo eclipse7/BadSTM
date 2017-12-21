@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Admin/Desktop/stm32 bad usb/Src/main.c" title="main.c" tooltip="C:/Users/Admin/Desktop/stm32 bad usb/Src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bad USB on STM32F103C8T6/Src/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="390"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/Bad USB on STM32F103C8T6"/>
+</expanded>
+<selection>
+<element path="/Bad USB on STM32F103C8T6"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.component.ui.ComponentView" partName="Components">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.component.ui.ComponentView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@13d26fd">
+<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="Components"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@13d26fd">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f68a99" ratio="0.79266894" ratioLeft="692" ratioRight="181" relationship="4" relative="org.eclipse.ui.internal.ViewStack@13d26fd">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.21933962" ratioLeft="279" ratioRight="993" relationship="2" relative="org.eclipse.ui.internal.ViewStack@13d26fd"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b548a" ratio="0.71903324" ratioLeft="714" ratioRight="279" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44971752" ratioLeft="398" ratioRight="487" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cad7c3" ratio="0.36949152" ratioLeft="327" ratioRight="558" relationship="4" relative="org.eclipse.ui.internal.ViewStack@13d26fd">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MasterProject_CoIDE/Src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MasterProject_CoIDE/Inc/usb_keyboard.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MasterProject_CoIDE/Src/usb_keyboard.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/main.c"/>
+</editors>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1697" y="12"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2808" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2810" y="18"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3990" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4399" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="297" y="5"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4313" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="297" y="5"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4313" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="586" y="1"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4313" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="769" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4313" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="769" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4313" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="769" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3505" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="769" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3505" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="499" y="2"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3505" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="499" y="2"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4856" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="485" y="9"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4841" y="9"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="627" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4852" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="627" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3505" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="677" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.c" index="2">
+<position info="not_deleted" x="3120" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="677" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.c" index="2">
+<position info="not_deleted" x="3120" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="1136" y="12"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3505" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="416" y="3"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7497" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.c" index="2">
+<position info="not_deleted" x="3120" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.h" index="1">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7518" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7119" y="71"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4269" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7831" y="31"/>
+</item>
+<item active="true" historyLabel="main.c" index="3">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
+<persistable path="/helloworld/Src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
+<persistable path="/helloworld/Src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
+<persistable path="/helloworld/Src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
+<persistable path="/helloworld/Src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_keyboard.c" tooltip="MasterProject_CoIDE/Src/usb_keyboard.c">
+<persistable path="/MasterProject_CoIDE/Src/usb_keyboard.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_keyboard.h" tooltip="MasterProject_CoIDE/Inc/usb_keyboard.h">
+<persistable path="/MasterProject_CoIDE/Inc/usb_keyboard.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.h" tooltip="MasterProject_CoIDE/Middlewares/Third_Party/FatFs/src/diskio.h">
+<persistable path="/MasterProject_CoIDE/Middlewares/Third_Party/FatFs/src/diskio.h"/>
+</file>
+</mruList>
+</workbench>

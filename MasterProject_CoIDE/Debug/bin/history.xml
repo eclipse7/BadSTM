@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=MasterProject_CoIDE.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Bad USB on STM32F103C8T6 -TC:\CooCox\CoIDE\configuration\ProgramData\Bad USB on STM32F103C8T6/arm-gcc-link.ld -g">
+      <target file="MasterProject_CoIDE.elf" lastModified="1607ab27d8b">
+         <source file="..\obj\stm32f1xx_hal_rcc_ex.o" lastModified="1607ab26954"/>
+         <source file="..\obj\stm32f1xx_hal_pwr.o" lastModified="1607ab269af"/>
+         <source file="..\obj\stm32f1xx_hal.o" lastModified="1607ab26a08"/>
+         <source file="..\obj\stm32f1xx_it.o" lastModified="1607ab26a59"/>
+         <source file="..\obj\stm32f1xx_hal_gpio_ex.o" lastModified="1607ab26aaa"/>
+         <source file="..\obj\stm32f1xx_hal_cortex.o" lastModified="1607ab26b0f"/>
+         <source file="..\obj\system_stm32f1xx.o" lastModified="1607ab26b4a"/>
+         <source file="..\obj\stm32f1xx_hal_rcc.o" lastModified="1607ab26bc7"/>
+         <source file="..\obj\usbd_hid.o" lastModified="1607ab26c36"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1607ab26c61"/>
+         <source file="..\obj\diskio.o" lastModified="1607ab26cf0"/>
+         <source file="..\obj\stm32f1xx_hal_pcd.o" lastModified="1607ab26d6c"/>
+         <source file="..\obj\usb_keyboard.o" lastModified="1607ab26e39"/>
+         <source file="..\obj\usbd_core.o" lastModified="1607ab26ea5"/>
+         <source file="..\obj\main.o" lastModified="1607ab27199"/>
+         <source file="..\obj\stm32f1xx_ll_usb.o" lastModified="1607ab27218"/>
+         <source file="..\obj\stm32f1xx_hal_spi_ex.o" lastModified="1607ab27269"/>
+         <source file="..\obj\stm32f1xx_hal_flash.o" lastModified="1607ab272c6"/>
+         <source file="..\obj\stm32f1xx_hal_gpio.o" lastModified="1607ab2731f"/>
+         <source file="..\obj\stm32f1xx_hal_dma.o" lastModified="1607ab27385"/>
+         <source file="..\obj\usbd_desc.o" lastModified="1607ab2747c"/>
+         <source file="..\obj\usbd_conf.o" lastModified="1607ab274f8"/>
+         <source file="..\obj\syscall.o" lastModified="1607ab2754c"/>
+         <source file="..\obj\fatfs.o" lastModified="1607ab275a1"/>
+         <source file="..\obj\stm32f1xx_hal_spi.o" lastModified="1607ab27638"/>
+         <source file="..\obj\stm32f1xx_hal_msp.o" lastModified="1607ab2768b"/>
+         <source file="..\obj\ff.o" lastModified="1607ab27782"/>
+         <source file="..\obj\stm32f1xx_hal_tim.o" lastModified="1607ab27874"/>
+         <source file="..\obj\ff_gen_drv.o" lastModified="1607ab278c9"/>
+         <source file="..\obj\stm32f1xx_hal_flash_ex.o" lastModified="1607ab2792e"/>
+         <source file="..\obj\usbd_ctlreq.o" lastModified="1607ab27999"/>
+         <source file="..\obj\stm32f1xx_hal_pcd_ex.o" lastModified="1607ab279e5"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="1607ab27a40"/>
+         <source file="..\obj\usb_device.o" lastModified="1607ab27a98"/>
+         <source file="..\obj\stm32f1xx_hal_tim_ex.o" lastModified="1607ab27b1c"/>
+         <source file="..\obj\user_diskio.o" lastModified="1607ab27b6f"/>
+      </target>
+   </processor>
+</history>
