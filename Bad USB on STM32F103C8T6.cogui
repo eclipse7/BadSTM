@@ -17,17 +17,23 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Admin/Desktop/stm32 bad usb/Src/main.c" title="main.c" tooltip="C:/Users/Admin/Desktop/stm32 bad usb/Src/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bad USB on STM32F103C8T6/Src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="390"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="403" selectionTopPixel="5651"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="17">
 <expanded>
 <element path="/Bad USB on STM32F103C8T6"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares/ST"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs/src"/>
+<element path="/Bad USB on STM32F103C8T6/Src"/>
 </expanded>
 <selection>
-<element path="/Bad USB on STM32F103C8T6"/>
+<element path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs/src/diskio.c"/>
 </selection>
 </viewState>
 </view>
@@ -127,46 +133,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MasterProject_CoIDE/Inc/usb_keyboard.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MasterProject_CoIDE/Src/usb_keyboard.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/usb_keyboard.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/usb_device.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/fatfs.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Inc/fatfs.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Inc/ffconf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs/src/diskio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bad USB on STM32F103C8T6/Src/main.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1697" y="12"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2808" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2810" y="18"/>
-</item>
-<item historyLabel="usb_keyboard.h" index="1">
-<position info="not_deleted" x="313" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3990" y="0"/>
-</item>
-<item historyLabel="usb_keyboard.h" index="1">
-<position info="not_deleted" x="313" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4399" y="0"/>
-</item>
-<item historyLabel="usb_keyboard.h" index="1">
-<position info="not_deleted" x="297" y="5"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4313" y="0"/>
-</item>
-<item historyLabel="usb_keyboard.h" index="1">
-<position info="not_deleted" x="297" y="5"/>
-</item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="4313" y="0"/>
 </item>
@@ -275,8 +250,47 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="7831" y="31"/>
 </item>
-<item active="true" historyLabel="main.c" index="3">
+<item historyLabel="main.c" index="3">
 <position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="usb_keyboard.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="6635" y="0"/>
+</item>
+<item historyLabel="usb_device.c" index="5">
+<position info="not_deleted" x="2889" y="18"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="6635" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="6617" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="6490" y="0"/>
+</item>
+<item historyLabel="stm32f1xx_hal.h" index="6">
+<position info="not_deleted" x="10339" y="8"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="6490" y="0"/>
+</item>
+<item historyLabel="fatfs.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fatfs.h" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ffconf.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="diskio.c" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="11">
+<position info="not_deleted" x="6490" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -285,6 +299,36 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.c" tooltip="Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs/src/diskio.c">
+<persistable path="/Bad USB on STM32F103C8T6/Middlewares/Third_Party/FatFs/src/diskio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ffconf.h" tooltip="Bad USB on STM32F103C8T6/Inc/ffconf.h">
+<persistable path="/Bad USB on STM32F103C8T6/Inc/ffconf.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fatfs.h" tooltip="Bad USB on STM32F103C8T6/Inc/fatfs.h">
+<persistable path="/Bad USB on STM32F103C8T6/Inc/fatfs.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fatfs.c" tooltip="Bad USB on STM32F103C8T6/Src/fatfs.c">
+<persistable path="/Bad USB on STM32F103C8T6/Src/fatfs.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx_hal.h" tooltip="Bad USB on STM32F103C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+<persistable path="/Bad USB on STM32F103C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_device.c" tooltip="Bad USB on STM32F103C8T6/Src/usb_device.c">
+<persistable path="/Bad USB on STM32F103C8T6/Src/usb_device.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_keyboard.c" tooltip="Bad USB on STM32F103C8T6/Src/usb_keyboard.c">
+<persistable path="/Bad USB on STM32F103C8T6/Src/usb_keyboard.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
+<persistable path="/helloworld/Src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
 <persistable path="/helloworld/Src/main.c"/>
 </file>
@@ -299,36 +343,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 <persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
-<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
-<persistable path="/helloworld/Src/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
-<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
-<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="helloworld/Src/main.c">
-<persistable path="/helloworld/Src/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f1xx.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
-<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f103xb.h" tooltip="helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
-<persistable path="/helloworld/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_keyboard.c" tooltip="MasterProject_CoIDE/Src/usb_keyboard.c">
-<persistable path="/MasterProject_CoIDE/Src/usb_keyboard.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_keyboard.h" tooltip="MasterProject_CoIDE/Inc/usb_keyboard.h">
-<persistable path="/MasterProject_CoIDE/Inc/usb_keyboard.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.h" tooltip="MasterProject_CoIDE/Middlewares/Third_Party/FatFs/src/diskio.h">
-<persistable path="/MasterProject_CoIDE/Middlewares/Third_Party/FatFs/src/diskio.h"/>
 </file>
 </mruList>
 </workbench>
